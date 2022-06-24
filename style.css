@@ -5,17 +5,14 @@
 }
 
 body {
-    background-image: url(./img/iss066e161043.jpeg);
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #024959;
     color: #bebcbc;
 }
 
 .message {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
-    margin: 5rem 20rem 2rem;
+    margin: 5rem auto;
     width: 40rem;
     text-align: center;
 
@@ -24,7 +21,7 @@ body {
 .counter {
     width: 25rem;
     height: 5rem;
-    margin: 5rem 25rem 2rem;
+    margin: 5rem auto;
     border: 3px solid #30734D;
     border-radius: 5px;
     font-size: 2rem;
@@ -37,7 +34,7 @@ body {
 .btns {
     width: 20rem;
     height: 5rem;
-    margin: 1rem 27.5rem;
+    margin: 1rem auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -66,16 +63,13 @@ body {
     transform: scale(1.1);
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:576px) {
     body {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         color: #bebcbc;
     }
 
     .message {
-        margin: 1rem 2rem;
+        margin: 1rem auto;
         max-width: 20rem;
         width: 17rem;
         text-align: center;
