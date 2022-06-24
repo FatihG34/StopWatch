@@ -65,3 +65,33 @@ body {
     color: #729CA6;
     transform: scale(1.1);
 }
+
+@media screen and (max-width:750px) {
+    body {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #bebcbc;
+    }
+
+    .message {
+        margin: 1rem 2rem;
+        max-width: 20rem;
+        width: 17rem;
+        text-align: center;
+
+    }
+
+    .counter {
+        width: 20rem;
+        height: 5rem;
+        margin: 1rem auto;
+
+    }
+
+    .btns {
+        width: 20rem;
+        height: 5rem;
+        margin: 1rem auto;
+    }
+}
